@@ -19,7 +19,7 @@ Save_path = os.path.abspath('.')
 # 需要下载的文件名称,在help()中选择其他的文件 默认为ubuntu 11.x and 12.x 64bit
 File_Name = 'SecureCRT_ubuntu1164_deb'
 # 当前用户密码
-pass_wd = 'yangpan220'
+pass_wd = '********'
 # dpkg 或者rpm 路径(这里自动输出了当前用户的密码,ubuntu 默认)
 bin_path = '/bin/echo %s|/usr/bin/sudo -S dpkg -i' %(pass_wd)
 ##################################################################################
